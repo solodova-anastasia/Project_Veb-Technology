@@ -16,3 +16,29 @@ me <-------------> webserver (nginx) <------> css, js, img, fonts
 
 https://paiza.io/projects/Dq77BtpMIxKtR-oTtLiHfA?language=php
 
+SQL на семинаре: https://onecompiler.com/mysql/3zdavjvqk
+-- create
+CREATE TABLE employee (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO employee (name, dept) VALUES ('Clark', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('Dave', 'Accounting');
+INSERT INTO employee (name, dept) VALUES ('Ava', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('Eva', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('Adam', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('Michael', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('Peter', 'Sales');
+INSERT INTO employee (name, dept) VALUES ('George', 'Sales');
+
+-- fetch 
+SELECT id, name AS имя 
+FROM employee 
+WHERE (dept = 'Sales' AND id > 2 AND name LIKE '%e%') 
+OR (name = 'Dave') 
+ORDER BY name ASC 
+-- DESC (в обратном порядке)
+;
