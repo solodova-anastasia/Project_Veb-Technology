@@ -1,0 +1,18 @@
+https://site.ru
+me <-------------> webserver (nginx) <------> index.html
+me <-------------> webserver (nginx) <------> css, js, img, fonts
+
+   https://site.ru
+me <-------------> webserver (nginx) <------> php (собирает html) <----> db
+me <-------------> webserver (nginx) <------> css, js, img, fonts
+
+   https://site.ru
+me <-------------> webserver (nginx) <------> index.html
+me <-------------> webserver (nginx) <------> css, js
+js <-------------> webserver (nginx) <------> php (вернет данные) <----> db
+me <-------------> webserver (nginx) <------> css, js, img, fonts
+
+// логика подходов к выбору языков в компании
+
+https://paiza.io/projects/Dq77BtpMIxKtR-oTtLiHfA?language=php
+
