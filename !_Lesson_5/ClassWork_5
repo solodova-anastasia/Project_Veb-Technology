@@ -99,5 +99,33 @@ https://disk.yandex.ru/i/XMW2QlG2VjNkRA ЕСЛИ НУЖНО ПЕРЕВЕСТИ �
     </doRegister>
 </doRegisters> -->
 
+<!-- Задание_4:
+{
+  "query": "Виктор Иван",
+  "count": 7,
+  "parts": ["NAME", "SURNAME"]
+}
+
+Задание_5: https://disk.yandex.ru/i/Nt7kLMqHeJTDTA
+[
+  {
+    "name": "Иван",
+    "surname": "Иванов",
+    "age": 37,
+    "hobbies": ["рыбалка", "охота", "футбол"],
+    "married": true,
+    "children": ["Мария", "Николай"]
+  },
+  {
+    "name": "Ольга",
+    "surname": "Фролова",
+    "age": 21,
+    "hobbies": ["путешествия", "вышивание"],
+    "married": false,
+    "children": []
+  }
+]
+
+
 
 
