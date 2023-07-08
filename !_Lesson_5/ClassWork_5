@@ -1,0 +1,70 @@
+API
+  REST
+
+  https://site.ru
+  GET - https://site.ru/api/users
+  POST - https://site.ru/api/users
+  GET - https://site.ru/api/users/123
+  PATCH - https://site.ru/api/users/123
+  PUT - https://site.ru/api/users/123
+  DELETE - https://site.ru/api/users/123
+
+  GET - https://site.ru/api/users/123
+  me <------> webserver (nginx) <-------> php <------> db
+
+  $user = [
+    'id' => 123,
+    'name' => 'Павел',
+    'age' => 33,
+  ];
+
+  "123,Павел,33"
+  "id=123,name=Павел,age=33"
+
+  <?xml version="1.0"?>
+  <user>
+    <id>123</id>
+    <name>Павел</name>
+    <age>33</age>
+  </user>
+
+  `{"id":123,"name":"Павел","age":33}`
+
+
+<!-- https://gb.ru/posts/kak-testirovat-api-ili-postman-dlya-chajnikov
+Тестирование API c postman: https://www.youtube.com/watch?v=zfrQtU8eCEo
+На степике: https://stepik.org/course/120679/info
+Еще инфо: https://academy.yandex.ru/handbook/python/article/potokovyj-vvodvyvod-rabota-s-tekstovymi-fajlami-json
+Буткемп:
+1 - https://gbcdn.mrgcdn.ru/uploads/record/236497/attachment/fc49f37acca5b13713a1aed21bd28a19.mp4
+2 - https://gbcdn.mrgcdn.ru/uploads/record/236495/attachment/81045253b5c2d990cab029e9de1ef9f5.mp4 -->
+
+<!-- JSON!! 
+https://jsonformatter.org/xml-formatter
+https://jsonformatter.org/json-parser -->
+
+<!-- https://disk.yandex.ru/i/XMW2QlG2VjNkRA\
+https://disk.yandex.ru/i/XMW2QlG2VjNkRA ЕСЛИ НУЖНО ПЕРЕВЕСТИ ТАБЛИЦЫ В XML-->
+
+
+<!-- Задание_1:
+<?xml version="1.0"?>
+<products>
+	<product>
+		<name>Яблоки</name>
+		<weight>1000</weight>
+		<group>Фрукты</group>
+		<price>150</price>
+		<warehouse>1</warehouse>
+	</product>
+	<product>
+		<name>Яблоки</name>
+		<weight>1000</weight>
+		<group>Фрукты</group>
+		<price>150</price>
+		<warehouse>1</warehouse>
+	</product>
+</products> -->
+
+Задание_2: https://disk.yandex.ru/i/i3tcrj3vPxwwvg
+
