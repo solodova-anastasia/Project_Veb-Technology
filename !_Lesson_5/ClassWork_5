@@ -66,5 +66,38 @@ https://disk.yandex.ru/i/XMW2QlG2VjNkRA ЕСЛИ НУЖНО ПЕРЕВЕСТИ �
 	</product>
 </products> -->
 
-Задание_2: https://disk.yandex.ru/i/i3tcrj3vPxwwvg
+<!-- Задание_2: https://disk.yandex.ru/i/i3tcrj3vPxwwvg  (квадратные скобки, т.к. много значений)
+[
+  {
+    "name":"Камил видит руками",
+    "author":"Томаш Малковски",
+    "pages":146,
+    "date":2019,
+    "price":863
+  },
+  {
+    "name":"Вероятности и неприятности",
+    "author":"Томаш Малковски",
+    "pages":146,
+    "date":2019,
+    "price":863
+  }
+] -->
+
+<!-- Здаание_3: https://disk.yandex.ru/i/ehL6g0t_hCk8Xg
+<?xml version="1.0"?>
+<doRegisters>
+    <doRegister>
+        <email>olga@gmail.com</email>
+        <name>Ольга</name>
+        <password>1</password>
+    </doRegister>
+    <doRegister>
+        <email>ivan@gmail.com</email>
+        <name>Иван</name>
+        <password>222</password>
+    </doRegister>
+</doRegisters> -->
+
+
 
