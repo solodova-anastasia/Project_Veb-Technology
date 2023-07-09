@@ -1,3 +1,5 @@
+Онлайн-компилятор: https://onecompiler.com/mysql/3zdyhzumj
+
 -- create
 CREATE TABLE EMPLOYEE (
 id INTEGER PRIMARY KEY,
